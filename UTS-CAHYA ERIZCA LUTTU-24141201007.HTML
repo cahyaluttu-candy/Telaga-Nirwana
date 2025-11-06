@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telaga Nirwana Rote</title>
+
+  <style>
+    /* ===== Umum ===== */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff; /* biru lembut */
+      color: #333;
+    }
+
+    /* ===== Header & Navigasi ===== */
+    header {
+      background: linear-gradient(90deg, #a8edea, #fed6e3, #cdb4db, #b0eacd);
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 15px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe8f0;
+      text-decoration: underline;
+    }
+
+    /* ===== Bagian Home ===== */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa; /* biru lembut */
+    }
+
+    .hero img {
+      width: 85%;
+      max-width: 700px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .hero h2 {
+      color: #5f4b8b; /* lavender gelap */
+      margin-top: 25px;
+      font-size: 26px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      margin: 10px auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ===== Galeri ===== */
+    .gallery {
+      margin-top: 50px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .images img {
+      width: 280px;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* ===== About ===== */
+    .about {
+      max-width: 850px;
+      margin: 60px auto;
+      padding: 40px;
+      background: linear-gradient(135deg, #ffb6c1, #b0eacd, #cdb4db); /* pink-hijau-lavender */
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .about h2 {
+      color: #5f4b8b;
+      text-align: center;
+    }
+
+    .about p {
+      line-height: 1.6;
+      text-align: center;
+      color: #2a2a2a;
+    }
+
+    .about ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .about li {
+      margin: 6px 0;
+      font-weight: bold;
+    }
+
+    /* ===== Contact ===== */
+    .contact {
+      max-width: 700px;
+      margin: 60px auto;
+      background: linear-gradient(135deg, #b0eacd, #ffb6c1, #cdb4db);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact h2 {
+      text-align: center;
+      color: #5f4b8b;
+      margin-bottom: 25px;
+    }
+
+    form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #5f4b8b;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 10px;
+      border: 1px solid #dcd0ff;
+      background-color: #fff;
+    }
+
+    form textarea {
+      height: 100px;
+      resize: none;
+    }
+
+    form button {
+      margin-top: 15px;
+      background-color: #ffb6c1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    form button:hover {
+      background-color: #cdb4db;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(90deg, #a8edea, #fed6e3, #cdb4db, #b0eacd);
+      color: white;
+      margin-top: 60px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🌸 Telaga Nirwana Rote 🌸</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <img src="telaga inti.jpg" alt="Telaga Nirwana Rote">
+    <h2>Keindahan Telaga Nirwana di Pulau Rote 🌿</h2>
+    <p>
+      Telaga Nirwana adalah permata alam tersembunyi di Pulau Rote, Nusa Tenggara Timur. Dikelilingi tebing karang dan pepohonan hijau, telaga ini memikat dengan airnya yang jernih berwarna biru kehijauan. Suasana tenang dan alami membuat tempat ini ideal untuk bersantai, berenang, atau sekadar menikmati panorama alam yang menakjubkan. Terletak di Desa Oeseli, Telaga Nirwana menawarkan pengalaman wisata yang damai dan jauh dari keramaian, sekaligus dekat dengan keindahan pantai sekitar. 🌤️
+    </p>
+
+    <div class="gallery">
+      <h3>✨ Galeri Keindahan ✨</h3>
+      <div class="images">
+        <img src="telaga 2.jpg" alt="Pemandangan Telaga 1">
+        <img src="telaga1.jpg" alt="pemandangan telaga 2">
+        <img src="telaga3.jpg" alt="pemandangan telaga 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>Tentang Kami 💖</h2>
+    <p>
+      Pengelola Telaga Nirwana berkomitmen menghadirkan pengalaman wisata yang indah, aman, dan menjaga kelestarian alam.  
+      Dengan sentuhan layanan ramah, semua pengunjung bisa menikmati alam yang menenangkan di Pulau Rote. 🌺
+    </p>
+    <ul>
+      <li><strong>Nama:</strong> Telaga Nirwana Rote Tour</li>
+      <li><strong>Telepon:</strong> +62 812-9876-5432</li>
+      <li><strong>Email:</strong> info@telaganirwana.com</li>
+      <li><strong>Instagram:</strong> @telaga.nirwana.rote</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Hubungi Kami 💌</h2>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" placeholder="Masukkan nama Anda">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Masukkan email Anda">
+
+      <label for="pesan">Komentar:</label>
+      <textarea id="pesan" placeholder="Tulis komentar Anda..."></textarea>
+
+      <button type="submit">Kirim Pesan 💕</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Telaga Nirwana Rote | Made with 💗</p>
+  </footer>
+
+</body>
+</html>
